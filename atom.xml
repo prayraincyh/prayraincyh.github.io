@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://prayraincyh.github.io</id>
     <title>箱庭</title>
-    <updated>2020-01-31T12:04:20.888Z</updated>
+    <updated>2020-01-31T12:05:46.674Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://prayraincyh.github.io"/>
     <link rel="self" href="https://prayraincyh.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://prayraincyh.github.io/images/avatar.png</logo>
     <icon>https://prayraincyh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 箱庭</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://prayraincyh.github.io/post/ce-shi</id>
+        <link href="https://prayraincyh.github.io/post/ce-shi">
+        </link>
+        <updated>2020-01-31T12:03:44.000Z</updated>
+        <content type="html"><![CDATA[<p>测试界面</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://prayraincyh.github.io/post/hello-gridea</id>
