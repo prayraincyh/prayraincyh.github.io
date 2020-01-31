@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    箱庭
+    书籍分享  | 箱庭
 </title>
 <link rel="shortcut icon" href="https://prayraincyh.github.io/favicon.ico?v=1580491395205">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -19,6 +19,7 @@
 <script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+        
 </head>
 
 <body>
@@ -93,36 +94,75 @@
     });
 </script>
 
-            
-
-    <div class="archives-container main-container">
-        <ul class="timeline">
-            
-                <li>
-                    <h3 class="year">
-                        2020
-                    </h3>
-                    <ul class="year-wrapper">
-                        
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            书籍分享 
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2020-02-01</time>
                             
-                                <li>
-                                    <span class="date">2020-02-01</span>
-                                    <a class="title" href="https://prayraincyh.github.io/post/shu-ji-fen-xiang">
-                                        <span>书籍分享 </span>
-                                    </a>
-                                </li>
+                        </div>
+                        
+                                <div class="post-content">
+                                    <p>分享收集及自制的精美电子书</p>
+<!--more-->
+<figure data-type="image" tabindex="1"><img src="https://prayraincyh.github.io/post-images/1580491094125.png" alt="" loading="lazy"></figure>
+<p><a href="https://www.icloud.com/iclouddrive/06MrpAGbg8z6NPCmhYqsYA13w">观山海</a></p>
+<p>山海经画册</p>
+<p>格式：EPUB</p>
+<p>大小：45.8 MB</p>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
                                 
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://prayraincyh.github.io/images/avatar.png?v=1580491395205)">
+        </div>
+        <h1 class="id_card-title">
+            箱庭
+        </h1>
+        <h2 class="id_card-description">
+            时间会证明你的努力
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
                                     
-                    </ul>
 
-                </li>
-                
-        </ul>
+        </div>
     </div>
+    
+                                    
 
-                
+                </div>
 
-                    <div class="site-footer">
+
+
+
+            </div>
+
+
+            <div class="site-footer">
    | 
   <a class="rss" href="https://prayraincyh.github.io/atom.xml" target="_blank">RSS</a>
 </div>
@@ -131,7 +171,15 @@
   hljs.initHighlightingOnLoad()
 </script>
 
+
     </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
 </body>
 
 </html>
