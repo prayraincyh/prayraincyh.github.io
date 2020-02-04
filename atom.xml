@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://prayraincyh.github.io</id>
-    <title>箱庭</title>
-    <updated>2020-02-01T06:33:12.163Z</updated>
+    <title>仓鼠箱庭</title>
+    <updated>2020-02-04T15:41:36.654Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://prayraincyh.github.io"/>
     <link rel="self" href="https://prayraincyh.github.io/atom.xml"/>
     <subtitle>时间会证明你的努力</subtitle>
     <logo>https://prayraincyh.github.io/images/avatar.png</logo>
     <icon>https://prayraincyh.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 箱庭</rights>
+    <rights>All rights reserved 2020, 仓鼠箱庭</rights>
+    <entry>
+        <title type="html"><![CDATA[网址收藏夹]]></title>
+        <id>https://prayraincyh.github.io/post/miass</id>
+        <link href="https://prayraincyh.github.io/post/miass">
+        </link>
+        <updated>2020-02-03T18:31:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>收藏精美有用的网站</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>收藏精美有用的网站</p>
+<!--more-->
+<h2 id="开源矢量图">开源矢量图</h2>
+<p><a href="https://www.manypixels.co/gallery/">manyoixels</a></p>
+<p><a href="https://undraw.co/illustrations">undraw</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[书籍分享 ]]></title>
         <id>https://prayraincyh.github.io/post/shu-ji-fen-xiang</id>
