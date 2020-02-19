@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    命令 | 仓鼠箱庭
+    让生活变得简单 | 仓鼠箱庭
 </title>
 <link rel="shortcut icon" href="https://prayraincyh.github.io/favicon.ico?v=1582113984930">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -99,22 +99,28 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            命令
+                            让生活变得简单
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2020-02-15</time>
+                            <time class="post-time">2020-02-19</time>
                             
                         </div>
                         
-                            <div class="post-feature-image" style="background-image: url('https://prayraincyh.github.io/post-images/ming-ling.jpg')"></div>
+                            <div class="post-feature-image" style="background-image: url('https://prayraincyh.github.io/post-images/rang-sheng-huo-bian-de-jian-dan.jpg')"></div>
                             
                                 <div class="post-content">
-                                    <p>保存一些常用命令，简化搜索步骤。</p>
+                                    <h1 id="让生活简单起来">让生活简单起来</h1>
+<p>去掉不必要的物质</p>
+<p>摆脱不必要的时间安排</p>
+<p>列下规定，并坚持去做。</p>
 <!--more-->
-<p>export ALL_PROXY=socks5://127.0.0.1:1086</p>
-<p>用以代理终端</p>
-<p>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</p>
-<p>用以安装 brew 。</p>
+<p>减少目标</p>
+<p>抛弃负面情绪</p>
+<p>摆脱债务</p>
+<p>保持身体健康</p>
+<p>减少对电子产品的关注</p>
+<p>尽量专注于一件事</p>
+<p>做重要的事</p>
 
                                 </div>
                     </article>
@@ -122,9 +128,9 @@
                     
                         <div class="next-post">
                             <div class="next">下一篇</div>
-                            <a href="https://prayraincyh.github.io/post/miass/">
+                            <a href="https://prayraincyh.github.io/post/ming-ling/">
                                 <h3 class="post-title">
-                                    网址收藏夹
+                                    命令
                                 </h3>
                             </a>
                         </div>
@@ -137,32 +143,42 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://prayraincyh.github.io/images/avatar.png?v=1582113984930)">
-        </div>
-        <h1 class="id_card-title">
-            仓鼠箱庭
-        </h1>
-        <h2 class="id_card-description">
-            时间会证明你的努力
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li><a href="#%E8%AE%A9%E7%94%9F%E6%B4%BB%E7%AE%80%E5%8D%95%E8%B5%B7%E6%9D%A5">让生活简单起来</a></li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
