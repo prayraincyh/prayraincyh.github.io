@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://prayraincyh.github.io</id>
     <title>仓鼠箱庭</title>
-    <updated>2020-02-21T16:21:46.624Z</updated>
+    <updated>2020-02-26T08:54:53.732Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://prayraincyh.github.io"/>
     <link rel="self" href="https://prayraincyh.github.io/atom.xml"/>
@@ -42,10 +42,9 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>保存一些常用命令，简化搜索步骤。</p>
 <!--more-->
-<p>export ALL_PROXY=socks5://127.0.0.1:1086</p>
-<p>用以代理终端</p>
-<p>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</p>
-<p>用以安装 brew 。</p>
+<p><strong>用以代理终端 ：</strong>  export ALL_PROXY=socks5://127.0.0.1:1086</p>
+<p><strong>用以安装 brew ：</strong>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</p>
+<p><strong>Mac 打不开或文件已损坏：</strong> sudo spctl --master-disable</p>
 ]]></content>
     </entry>
     <entry>
