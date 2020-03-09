@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://prayraincyh.github.io</id>
     <title>仓鼠箱庭</title>
-    <updated>2020-03-09T17:11:37.491Z</updated>
+    <updated>2020-03-09T17:20:00.698Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://prayraincyh.github.io"/>
     <link rel="self" href="https://prayraincyh.github.io/atom.xml"/>
@@ -25,10 +25,14 @@
 <p>将磁盘分出 8G 格式化为 mac 拓展日志式<br>
 更改磁盘名称为 MyVolume<br>
 获取 <a href="https://itunes.apple.com/cn/app/macos-catalina/id1466841314?ls=1&amp;mt=12">Catalina</a><br>
+或者<br>
 获取<a href="https://itunes.apple.com/cn/app/macos-mojave/id1398502828?ls=1&amp;mt=12"> MacOS Mojave </a><br>
-下载完毕后打开终端 执行代码<br>
-sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume</p>
+下载完毕后打开终端 执行代码</p>
 </blockquote>
+<p>Catalina：<br>
+sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume</p>
+<p>Mojave：<br>
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume</p>
 <p>回车，提示时输入 Y ，等待安装完毕并提示。<br>
 <img src="https://prayraincyh.github.io/post-images/1583773774354.png" alt="" loading="lazy"><br>
 完成后关机，可按 option 查看安装盘是否成功。</p>
