@@ -7,7 +7,7 @@
 <title>
     Mac 电脑个人初始化设置 | 仓鼠箱庭
 </title>
-<link rel="shortcut icon" href="https://prayraincyh.github.io/favicon.ico?v=1583774398877">
+<link rel="shortcut icon" href="https://prayraincyh.github.io/favicon.ico?v=1583774769024">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -28,7 +28,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://prayraincyh.github.io">
-                <img class="avatar" src="https://prayraincyh.github.io/images/avatar.png?v=1583774398877" alt="">
+                <img class="avatar" src="https://prayraincyh.github.io/images/avatar.png?v=1583774769024" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -111,6 +111,7 @@
                                 <div class="post-content">
                                     <p>用来对个人电脑进行一些必要的配置。</p>
 <!--more-->
+<h2 id="系统还原">系统还原</h2>
 <p>创建可引导的 MacOS 安装器</p>
 <blockquote>
 <p>将磁盘分出 8G 格式化为 mac 拓展日志式<br>
@@ -127,6 +128,11 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 <p>回车，提示时输入 Y ，等待安装完毕并提示。<br>
 <img src="https://prayraincyh.github.io/post-images/1583773774354.png" alt="" loading="lazy"><br>
 完成后关机，可按 option 查看安装盘是否成功。</p>
+<h2 id="预装软件">预装软件</h2>
+<p>ClashXR<br>
+IINA<br>
+CheatSheet<br>
+CodeRunner</p>
 
                                 </div>
                     </article>
@@ -149,32 +155,47 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://prayraincyh.github.io/images/avatar.png?v=1583774398877)">
-        </div>
-        <h1 class="id_card-title">
-            仓鼠箱庭
-        </h1>
-        <h2 class="id_card-description">
-            时间会证明你的努力
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E7%B3%BB%E7%BB%9F%E8%BF%98%E5%8E%9F">系统还原</a></li>
+<li><a href="#%E9%A2%84%E8%A3%85%E8%BD%AF%E4%BB%B6">预装软件</a></li>
+</ul>
+</li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
