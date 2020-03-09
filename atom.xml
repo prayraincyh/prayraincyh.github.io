@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://prayraincyh.github.io</id>
     <title>仓鼠箱庭</title>
-    <updated>2020-03-08T15:16:42.012Z</updated>
+    <updated>2020-03-09T17:11:37.491Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://prayraincyh.github.io"/>
     <link rel="self" href="https://prayraincyh.github.io/atom.xml"/>
@@ -11,17 +11,27 @@
     <icon>https://prayraincyh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 仓鼠箱庭</rights>
     <entry>
-        <title type="html"><![CDATA[那些比较重要的性质]]></title>
-        <id>https://prayraincyh.github.io/post/na-xie-bi-jiao-chong-yao-de-xing-zhi/</id>
-        <link href="https://prayraincyh.github.io/post/na-xie-bi-jiao-chong-yao-de-xing-zhi/">
+        <title type="html"><![CDATA[Mac 电脑个人初始化设置]]></title>
+        <id>https://prayraincyh.github.io/post/mac-dian-nao-ge-ren-chu-shi-hua-she-zhi/</id>
+        <link href="https://prayraincyh.github.io/post/mac-dian-nao-ge-ren-chu-shi-hua-she-zhi/">
         </link>
-        <updated>2020-03-08T12:05:29.000Z</updated>
-        <summary type="html"><![CDATA[<p>努力做更好的自己</p>
+        <updated>2020-03-09T17:03:27.000Z</updated>
+        <summary type="html"><![CDATA[<p>用来对个人电脑进行一些必要的配置。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>努力做更好的自己</p>
+        <content type="html"><![CDATA[<p>用来对个人电脑进行一些必要的配置。</p>
 <!--more-->
-<h2 id="精益求精">精益求精</h2>
-<p>做事务必尽力做到最好。</p>
+<p>创建可引导的 MacOS 安装器</p>
+<blockquote>
+<p>将磁盘分出 8G 格式化为 mac 拓展日志式<br>
+更改磁盘名称为 MyVolume<br>
+获取 <a href="https://itunes.apple.com/cn/app/macos-catalina/id1466841314?ls=1&amp;mt=12">Catalina</a><br>
+获取<a href="https://itunes.apple.com/cn/app/macos-mojave/id1398502828?ls=1&amp;mt=12"> MacOS Mojave </a><br>
+下载完毕后打开终端 执行代码<br>
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume</p>
+</blockquote>
+<p>回车，提示时输入 Y ，等待安装完毕并提示。<br>
+<img src="https://prayraincyh.github.io/post-images/1583773774354.png" alt="" loading="lazy"><br>
+完成后关机，可按 option 查看安装盘是否成功。</p>
 ]]></content>
     </entry>
     <entry>
