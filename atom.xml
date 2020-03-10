@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://prayraincyh.github.io</id>
     <title>仓鼠箱庭</title>
-    <updated>2020-03-10T04:29:20.559Z</updated>
+    <updated>2020-03-10T04:32:42.696Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://prayraincyh.github.io"/>
     <link rel="self" href="https://prayraincyh.github.io/atom.xml"/>
@@ -45,21 +45,6 @@ CodeRunner</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[命令]]></title>
-        <id>https://prayraincyh.github.io/post/ming-ling/</id>
-        <link href="https://prayraincyh.github.io/post/ming-ling/">
-        </link>
-        <updated>2020-02-15T14:01:03.000Z</updated>
-        <summary type="html"><![CDATA[<p>保存一些常用命令，简化搜索步骤。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>保存一些常用命令，简化搜索步骤。</p>
-<!--more-->
-<p><strong>用以代理终端 ：</strong>  export ALL_PROXY=socks5://127.0.0.1:1086</p>
-<p><strong>用以安装 brew ：</strong>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</p>
-<p><strong>Mac 打不开或文件已损坏：</strong> sudo spctl --master-disable</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[网址收藏夹]]></title>
         <id>https://prayraincyh.github.io/post/miass/</id>
         <link href="https://prayraincyh.github.io/post/miass/">
@@ -80,23 +65,6 @@ CodeRunner</p>
 <p><a href="https://www.vmgirls.com/">少女相册</a></p>
 <h2 id="学习">学习</h2>
 <p><a href="https://lib-nuanxin.wqxuetang.com">文思学堂</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[书籍分享 ]]></title>
-        <id>https://prayraincyh.github.io/post/shu-ji-fen-xiang/</id>
-        <link href="https://prayraincyh.github.io/post/shu-ji-fen-xiang/">
-        </link>
-        <updated>2020-01-31T17:15:39.000Z</updated>
-        <summary type="html"><![CDATA[<p>分享收集及自制的精美电子书</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>分享收集及自制的精美电子书</p>
-<!--more-->
-<figure data-type="image" tabindex="1"><img src="https://prayraincyh.github.io/post-images/1580491094125.png" alt="" loading="lazy"></figure>
-<p><a href="https://www.icloud.com/iclouddrive/06MrpAGbg8z6NPCmhYqsYA13w">观山海</a></p>
-<p>山海经画册</p>
-<p>格式：EPUB</p>
-<p>大小：45.8 MB</p>
 ]]></content>
     </entry>
 </feed>
